@@ -1,15 +1,19 @@
-[NES] 파이널 판타지 4-2 (빛의 장) 한글패치 v1.0 배포
-
-FF4-2_KR_v1.0_FINAL RELEASE CHECKSUMS
-
-[CLEAN SOURCE]
-Title   : Zuizhong Huanxiang X2 (China) (v1.0) (Aftermarket) (Pirate)
+[CLEAN SOURCE - FF4-2 / X2]
 Size    : 1048592
 SHA-256 : 763baff20a78e760d097911a1e2dfd4b908349caa5bb429a1dda7e32aaca7849
-CRC32   : C9F2EAAB
+CRC32   : 1D07BC8C
+
+[IPS PATCH - 수정판]
+File    : FF4-2_KR_v1.0_FINAL.ips
+Size    : 153802
+SHA-256 : f9454a66476c44cd98f9e2903b9289d02cb2f054bb13871f145c5916db55e33f
+CRC32   : B2F2FD6E
 
 [PATCHED FINAL ROM]
-File    : FF4-2_KR_v1.0_FINAL.nes
 Size    : 1048592
 SHA-256 : 0aa369ebc708c1035c4e47416fc1efb7b36678ce62bfc3cd524cdd1c56ce5d05
 CRC32   : 93F92061
+
+Changed bytes CLEAN -> FINAL: 117789
+IPS records: 7201
+IPS round-trip verification: PASS
